@@ -13,7 +13,7 @@
     <ul class="active">
       <li><a href="/">Home</a>
         <li><a href="/databuku">Data Buku</li></a>
-        <li><a href="/datapeminjam">Data Peminjam</li></a>
+        <li><a href="/datapeminjam">Data Peminjaman</li></a>
     </ul>
   </header>
 
