@@ -1,0 +1,161 @@
+* {
+      margin: 0px;
+      padding: 0px;
+      font-family: century gothic;
+
+  }
+
+  body{
+    background-color: white;
+  }
+
+header {
+
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 20px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border:1px solid transparent;
+    transition: 0.6s;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+    background-color: #eff1f2;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);-
+}
+
+.title h1 {
+    color: white;
+    font-size: 66px;
+    text-decoration: underline;
+}
+
+.button {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);-
+}
+
+.btn {
+    border : 1px solid white;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.active {
+    margin-right: 450px;
+}
+
+        table {
+            margin: auto;
+            font-family: "Lucida Sans Unicode", "Lucida Grande", "Segoe Ui";
+            font-size: 12px;
+        }
+
+        h1 {
+            margin: 25px auto 0;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 17px;
+        }
+
+        table td {
+            transition: all .5s;
+        }
+        
+        /* Table */
+        .data-table {
+            border-collapse: collapse;
+            font-size: 14px;
+            min-width: 537px;
+        }
+
+        .data-table th, 
+        .data-table td {
+            border: 1px solid #e1edff;
+            padding: 7px 17px;
+        }
+        .data-table caption {
+            margin: 7px;
+        }
+
+        /* Table Header */
+        .data-table thead th {
+            background-color: #508abb;
+            color: #FFFFFF;
+            border-color: #6ea1cc !important;
+            text-transform: uppercase;
+        }
+
+        /* Table Body */
+        .data-table tbody td {
+            color: #353535;
+        }
+        .data-table tbody td:first-child,
+        .data-table tbody td:nth-child(4),
+        .data-table tbody td:last-child {
+            text-align: right;
+        }
+
+        .data-table tbody tr:nth-child(odd) td {
+            background-color: #f4fbff;
+        }
+        .data-table tbody tr:hover td {
+            background-color: #ffffa2;
+            border-color: #ffff0f;
+        }
+
+        /* Table Footer */
+        .data-table tfoot th {
+            background-color: #e5f5ff;
+            text-align: right;
+        }
+        .data-table tfoot th:first-child {
+            text-align: left;
+        }
+        .data-table tbody td:empty
+        {
+            background-color: #ffcccc;
+        }
